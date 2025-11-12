@@ -23,7 +23,7 @@ import (
 
 type BuildJobSpec struct {
 	// Job name, useful for debugging
-	Nam string `json:"nam"`
+	Name string `json:"name"`
 
 	// Additional metadata
 	Metadata map[string]string `json:"metadata,omitempty"`
