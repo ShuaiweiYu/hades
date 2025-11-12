@@ -48,7 +48,7 @@ spec:
                   type: string
                 description: Additional metadata
                 type: object
-              name:
+              nam:
                 description: Job name, useful for debugging
                 type: string
               steps:
@@ -103,7 +103,7 @@ spec:
                 minimum: 1
                 type: integer
             required:
-            - name
+            - nam
             - steps
             type: object
           status:
